@@ -1,0 +1,122 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(242, 204, 236);;
+}
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    color: crimson; 
+    font: 100px bold;
+    border: 10px solid black;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.subtitulo{
+    text-align: center;
+    text-shadow: 1px 1px 1px #808080;
+    color: blueviolet;
+    font: 20px italic;
+    background-color: aliceblue;
+}
+li{
+    display: inline;
+}
+.gallery-photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1vw;
+    padding: 0 1vw;
+    background-color: rgba(137, 43, 226, 0.604);
+}
+.gallery-items{
+    width: 130px;
+    height: 130px;
+    filter: grayscale(100%);
+}
+.gallery-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-items:hover{
+    transform: scale(1.3);
+    transition: transform .5s linear;
+    filter: none;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+a:visited{
+    color: rgb(195, 0, 255);
+}
+a:active{
+    color: rgb(26, 78, 182);
+}
+a:hover{
+    background-color: rgba(160, 151, 151, 0.6);
+    color: rgb(104, 8, 104); 
+}
+.perfil{
+    color: rgb(219, 224, 228);
+    text-align: center;
+    background-color: rgb(94, 64, 122);
+    display: flex; 
+    justify-content: space-between;
+    flex-grow: 1;
+}
+h1{
+    font: 30px Segoe UI;
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+h3{
+    font: 30px Segoe UI;
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+h5{
+    text-align: center;
+}
+p{
+    font: 20px Segoe UI;
+    text-align: center;
+    color: #000;
+    display: flexbox;
+}
+.botao{
+    font: 10px Segoe UI;
+    text-align: center;
+    display: flexbox;
+}
+.Maps{
+    display: flex;
+    object-fit: cover;
+    justify-content: space-between;
+    flex-grow: 1; 
+}
+.redes{
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+.rodape{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+    margin-bottom: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    background: linear-gradient(900deg, rgb(94, 64, 122), rgb(250, 250, 215) )
+}

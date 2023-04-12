@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube da Leitura</title>
+    <link rel="shortcut icon" href="images/favicon_io (1)/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <h1>Clube da Leitura</h1>
+    <p> Nos reunimos uma vez por semana pelo aplicativo do Zoom, para compartilhamos opiniões de leituras; fazer novas amizades, e troca de livros.
+        <br>A partir do preenchimento do formulário, será enviado para a sua caixa de e-mail o link para o acesso ao grupo de WhatsApp</p>
+    <br>
+
+    
+    <div class="formulario">
+        <h3>Formulário de Inscrição</h3>
+
+        <h4>Dados Pessoais</h4>    
+        <form action="POST" action="cadastros-recebidos.html">
+            <input type="text" name="nome" id="nome" 
+            placeholder="Nome" required>
+            <input type="text" name="sobrenome" id="sobrenome" 
+            placeholder="Sobrenome"><br><br>
+            <input type="text" name="data-de-nascimento" id="data-de-nascimento"
+            placeholder="Data de Nascimento">
+            <input type="text" name="celular-ou-email" id="celular-ou-email"
+            placeholder="Celular ou email">
+        
+            <br><br>
+
+            <h4>Gênero</h4>
+
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino">
+
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+
+            <label for="personalizado">Personalizado</label>
+            <input type="radio" name="genero" id="personalizado" value="personalizado">
+
+            <br><br>
+            <h4>Diga em poucas palavras seu interesse para participar do clube de leitura</h4>
+            <textarea name="texto" id="sua-resposta" cols="50" rows="2" placeholder="Sua resposta"></textarea>
+            <br><br>
+
+            <h4>Qual seu gênero literário favorito?</h4>
+
+            <label for="Romance">Romance</label>
+            <input type="radio" name="genero" id="romance" value="romance">
+
+            <label for="aventura">Aventura</label>
+            <input type="radio" name="genero" id="aventura" value="aventura">
+
+            <label for="ficçao">Ficção</label>
+            <input type="radio" name="genero" id="ficção" value="ficção">
+
+            <label for="outro">Outro</label>
+            <input type="text" name="genero" id="Deixe sua resposta" value="" placeholder="Deixe sua resposta">
+
+            <br><br>
+            <input type="button" value="Enviar">
+        </form>
+    </div>
+
+    <footer class="rodape">
+        <h4>Autor:<br>
+            <a href="https://github.com/Rosi-SB">Rosi-SB</a>
+            </h4>
+    </footer>
+</body>
+</html>

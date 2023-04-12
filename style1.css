@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(242, 204, 236);
+}
+h1{
+    font: 60px Segoe UI;
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+li{
+    display: inline;
+}
+.cabecalho li{
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    width: 30%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1vw;
+    padding: 0 1vw;
+ 
+}
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(249, 249, 250, 0.604);
+}
+a:visited{
+    color: rgb(195, 0, 255);
+}
+a:active{
+    color: rgb(26, 78, 182);
+}
+a:hover{
+    background-color: rgba(162, 18, 233, 0.6);
+    color: rgb(104, 8, 104); 
+}
+h3{
+    font: 20px Segoe UI;
+    text-align: center;
+    background:blueviolet;
+    color:aliceblue;
+    display: block;  
+}
+p{
+    font: 20px Segoe UI;
+    text-align: center;
+    color: #000;
+}
+.formulario{
+    align-items: center;
+    display: flexbox;
+}
+.rodape{
+    height: 90px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: aliceblue;
+    background: linear-gradient(900deg, rgb(94, 64, 122), rgb(250, 250, 215) )
+}

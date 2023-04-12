@@ -1,0 +1,39 @@
+.container{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1vw;
+    padding: 0 1vw;
+    background-color: rgba(137, 43, 226, 0.604);
+}
+.books{
+    display: inline;
+    justify-content: space-between;
+}
+.books img{
+    justify-content: column;
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+.livros img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.livros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h3{
+    font: 30px Segoe UI;
+    text-align: center;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+iframe{
+    align-items: center;
+    top: 100px;
+    }
+
